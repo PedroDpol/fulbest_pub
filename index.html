@@ -2,79 +2,157 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="KOSGpwayJLCj2YEfvsI9nAED_vYnZ7IhOF7mz2CboUo" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - Fulbest</title>
+    <title>Fulbest - Sitio Oficial</title>
+    <meta name="google-site-verification" content="KOSGpwayJLCj2YEfvsI9nAED_vYnZ7IhOF7mz2CboUo" />
+
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.7;
-            max-width: 800px;
-            margin: 40px auto;
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
             padding: 20px;
-            color: #333;
         }
-        h1, h2 {
-            color: #2c3e50;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1e293b;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
         }
         h1 {
-            text-align: center;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
+            color: #38bdf8;
+            font-size: 2.8rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
-        footer {
-            margin-top: 60px;
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+        /* BLOQUE DESTACADO PARA LA REVISIÓN DE GOOGLE */
+        .purpose-box {
+            background-color: #0284c7;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 6px solid #38bdf8;
+        }
+        .purpose-box h2 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        .purpose-box p {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+        .purpose-box p:last-child {
+            margin-bottom: 0;
+        }
+        .section-title {
+            color: #38bdf8;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 8px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #334155;
             text-align: center;
-            font-size: 0.9em;
-            color: #7f8c8d;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn-policy {
+            display: inline-block;
+            background-color: #22c55e;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .btn-policy:hover {
+            background-color: #16a34a;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidad de Fulbest</h1>
-    <p><em>Última actualización: 20 de septiembre de 2025</em></p>
 
-    <p>En Fulbest, valoramos tu privacidad. Esta política explica qué datos recopilamos, cómo los usamos y cómo los protegemos cuando juegas nuestro juego.</p>
+<div class="container">
+    <header>
+        <h1>Fulbest</h1>
+        <p class="subtitle">Sitio Oficial del Juego / Official Game Website</p>
+    </header>
 
-    <h2>1. ¿Qué datos recopilamos?</h2>
-    <p>Fulbest no recopila ni almacena ningún dato personal identificable de los jugadores, como nombre, correo electrónico, edad, ubicación o información de contacto. No pedimos ni guardamos ninguna información que te identifique directamente.</p>
+    <!-- PROPÓSITO DE LA APP (Aprobación de Google OAuth & Play Games Services) -->
+    <div class="purpose-box">
+        <h2>📌 Propósito de la Aplicación y Autenticación de Google</h2>
+        <p><strong>Español:</strong> <em>Fulbest</em> es un juego de fútbol 1vs1 para Android y PC desarrollado por Pedro Dottori (Lanniscarp Games). Esta página web sirve como el sitio oficial del juego. La autenticación mediante inicio de sesión con cuenta de Google y los permisos de OAuth se utilizan exclusivamente para la integración con <strong>Google Play Games Services</strong>, permitiendo a los jugadores guardar su progreso, desbloquear logros (achievements) y publicar sus puntuaciones en las tablas de clasificación (leaderboards) mundiales.</p>
+        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.3); margin: 10px 0;">
+        <p><strong>English:</strong> <em>Fulbest</em> is a 1v1 soccer video game for Android and PC developed by Pedro Dottori (Lanniscarp Games). This website is the official homepage for the application. Google OAuth and sign-in services are used strictly for <strong>Google Play Games Services</strong> integration, allowing users to authenticate, sync in-game achievements, and participate in global leaderboards.</p>
+    </div>
 
-    <p>Sin embargo, el juego utiliza servicios de terceros que pueden recopilar ciertos datos técnicos automáticamente:</p>
+    <!-- SOBRE EL JUEGO -->
+    <h2 class="section-title">⚽ Sobre Fulbest</h2>
+    <p>Un juego de fútbol 1vs1 caótico donde nada es normal. Enfrenta a distintos rivales —desde un millonario corrupto hasta un científico loco— en partidos llenos de poderes extraños, goles anulados, expulsiones injustas, clones inesperados y goles que valen triple.</p>
+
+    <!-- MODOS DE JUEGO -->
+    <h2 class="section-title">🎮 Modos de Juego</h2>
     <ul>
-        <li><strong>AdMob (Google)</strong>: Para mostrar anuncios, AdMob puede recopilar datos técnicos del dispositivo (como ID de publicidad, modelo, sistema operativo, IP, y comportamiento de interacción con anuncios) con el fin de personalizar la publicidad. Estos datos están sujetos a la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a>.</li>
-        <li><strong>Google Analytics (Firebase)</strong>: Utilizamos Google Analytics para entender cómo se juega Fulbest, por ejemplo: cuántas partidas se juegan, qué rivales son más populares, o cuánto tiempo pasan los jugadores en el juego. Esto nos ayuda a mejorar la experiencia. Google Analytics recopila datos anónimos y agregados — nunca vincula esta información a tu identidad personal.</li>
+        <li><strong>Modo Arcade:</strong> Ve superando a cada rival para ir desbloqueando enemigos cada vez más caóticos.</li>
+        <li><strong>Modo Copa:</strong> Enfrenta a 8 o 16 rivales en un torneo de eliminación directa.</li>
+        <li><strong>Modo Liga:</strong> Compite en una liga de 8 jugadores todos contra todos.</li>
+        <li><strong>Torneos Internacionales:</strong> Mundial de Selecciones, Bendita Copa de América, Copa Reyes de Europa y la Gran Copa Intercontinental.</li>
     </ul>
 
-    <h2>2. ¿Por qué usamos estos servicios?</h2>
-    <p>- Para ofrecerte un juego gratuito.<br>
-       - Para financiar su desarrollo mediante anuncios.<br>
-       - Para entender mejor cómo disfrutas el juego y así crear nuevas actualizaciones divertidas y equilibradas.</p>
+    <!-- CONTACTO Y PRIVACIDAD -->
+    <h2 class="section-title">📜 Políticas y Contacto</h2>
+    <p>Para consultar el tratamiento de datos y la privacidad del usuario, podés acceder a nuestro documento oficial:</p>
+    
+    <a href="privacyp.html" class="btn-policy">🔒 Ver Política de Privacidad (Privacy Policy)</a>
 
-    <h2>3. ¿Cómo protegemos tus datos?</h2>
-    <p>Los datos recopilados por AdMob y Google Analytics se gestionan bajo las estrictas políticas de seguridad de Google. No compartimos, vendemos ni cedemos tus datos a terceros fuera de estos servicios. No almacenamos esos datos en nuestros propios servidores.</p>
+    <div class="footer">
+        <p><strong>Desarrollador:</strong> Pedro Dottori (Lanniscarp Games)</p>
+        <p><strong>Contacto / Asistencia:</strong> <a href="mailto:lanniscarp@gmail.com">lanniscarp@gmail.com</a></p>
+        <p><strong>Página en Itch.io:</strong> <a href="https://lanniscarp-games.itch.io/fulbest" target="_blank">lanniscarp-games.itch.io/fulbest</a></p>
+        <p style="margin-top: 10px;">&copy; Fulbest. Todos los derechos reservados.</p>
+    </div>
+</div>
 
-    <h2>4. ¿Qué permisos requiere el juego?</h2>
-    <p>Fulbest solicita únicamente los siguientes permisos:<br>
-       - <strong>Acceso a Internet</strong>: Para cargar anuncios y estadísticas de uso.<br>
-       - <strong>Almacenamiento</strong>: Para guardar configuraciones locales del juego (como progresos o preferencias).</p>
-    <p>No solicitamos acceso a tu cámara, micrófono, contactos, ubicación ni otros datos sensibles.</p>
-
-    <h2>5. ¿El juego es adecuado para niños?</h2>
-    <p>Fulbest está diseñado para jugadores de todas las edades, pero contiene elementos de violencia fantasiosa (por ejemplo, demonios, explosiones, poderes absurdos). No está dirigido exclusivamente a menores de 13 años, pero sí es apto para ellos bajo supervisión parental. Los servicios de publicidad y análisis utilizados cumplen con las normativas de protección infantil (COPPA y GDPR-K).</p>
-
-    <h2>6. ¿Cómo puedes contactarnos?</h2>
-    <p>Si tienes preguntas, comentarios o deseas ejercer tus derechos de privacidad, puedes contactarnos en:</p>
-    <p><strong>📧 hectorviejogaga@gmail.com</strong></p>
-    <p>Nos comprometemos a responder dentro de los 7 días hábiles.</p>
-
-    <h2>7. Cambios en esta política</h2>
-    <p>Podemos actualizar esta política de vez en cuando. Cualquier cambio importante se notificará dentro del juego o mediante una alerta. Te recomendamos revisar esta página periódicamente.</p>
-
-    <p>Gracias por jugar Fulbest.<br>
-    Tu diversión es nuestra prioridad.</p>
-
-    <footer>
-        © 2025 Fulbest - Desarrollado por Lanniscarp Games
-    </footer>
 </body>
 </html>
