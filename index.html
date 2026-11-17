@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fulbest - Sitio Oficial</title>
+    <title>Fulbest - Sitio Oficial | Lanniscarp Games</title>
     <meta name="google-site-verification" content="KOSGpwayJLCj2YEfvsI9nAED_vYnZ7IhOF7mz2CboUo" />
 
     <style>
@@ -20,10 +20,10 @@
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 820px;
             margin: 0 auto;
             background-color: #1e293b;
-            padding: 30px;
+            padding: 32px;
             border-radius: 12px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.5);
         }
@@ -42,11 +42,10 @@
         }
         .subtitle {
             color: #94a3b8;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
         }
-        /* BLOQUE DESTACADO PARA LA REVISIÓN DE GOOGLE */
         .purpose-box {
-            background-color: #0284c7;
+            background-color: #0369a1;
             color: #ffffff;
             padding: 20px;
             border-radius: 8px;
@@ -54,7 +53,7 @@
             border-left: 6px solid #38bdf8;
         }
         .purpose-box h2 {
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             margin-bottom: 10px;
         }
         .purpose-box p {
@@ -70,7 +69,7 @@
             padding-bottom: 8px;
             margin-top: 25px;
             margin-bottom: 15px;
-            font-size: 1.5rem;
+            font-size: 1.45rem;
         }
         ul {
             margin-left: 20px;
@@ -78,6 +77,41 @@
         }
         li {
             margin-bottom: 8px;
+        }
+        .actions-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .btn-policy {
+            display: inline-block;
+            background-color: #22c55e;
+            color: #ffffff;
+            padding: 11px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .btn-policy:hover {
+            background-color: #16a34a;
+            text-decoration: none;
+        }
+        .btn-delete {
+            display: inline-block;
+            background-color: #334155;
+            color: #f8fafc;
+            padding: 11px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #475569;
+            transition: background-color 0.2s;
+        }
+        .btn-delete:hover {
+            background-color: #475569;
+            text-decoration: none;
         }
         .footer {
             margin-top: 40px;
@@ -95,20 +129,6 @@
         a:hover {
             text-decoration: underline;
         }
-        .btn-policy {
-            display: inline-block;
-            background-color: #22c55e;
-            color: #ffffff;
-            padding: 10px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            margin-top: 15px;
-            font-weight: bold;
-        }
-        .btn-policy:hover {
-            background-color: #16a34a;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
@@ -119,38 +139,41 @@
         <p class="subtitle">Sitio Oficial del Juego / Official Game Website</p>
     </header>
 
-    <!-- PROPÓSITO DE LA APP (Aprobación de Google OAuth & Play Games Services) -->
+    <!-- PROPÓSITO DE LA APP Y SERVICIOS EN LA NUBE -->
     <div class="purpose-box">
-        <h2>📌 Propósito de la Aplicación y Autenticación de Google</h2>
-        <p><strong>Español:</strong> <em>Fulbest</em> es un juego de fútbol 1vs1 para Android y PC desarrollado por Pedro Dottori (Lanniscarp Games). Esta página web sirve como el sitio oficial del juego. La autenticación mediante inicio de sesión con cuenta de Google y los permisos de OAuth se utilizan exclusivamente para la integración con <strong>Google Play Games Services</strong>, permitiendo a los jugadores guardar su progreso, desbloquear logros (achievements) y publicar sus puntuaciones en las tablas de clasificación (leaderboards) mundiales.</p>
-        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.3); margin: 10px 0;">
-        <p><strong>English:</strong> <em>Fulbest</em> is a 1v1 soccer video game for Android and PC developed by Pedro Dottori (Lanniscarp Games). This website is the official homepage for the application. Google OAuth and sign-in services are used strictly for <strong>Google Play Games Services</strong> integration, allowing users to authenticate, sync in-game achievements, and participate in global leaderboards.</p>
+        <h2>📌 Propósito de la Aplicación y Servicios Online</h2>
+        <p><strong>Español:</strong> <em>Fulbest</em> es un juego de fútbol arcade 1vs1 para Android y PC desarrollado por Pedro Dottori (Lanniscarp Games). Este sitio web funciona como la página oficial del juego. Los servicios de autenticación (cuentas en la nube y Google Play Games Services) se utilizan exclusivamente para guardar el progreso del jugador, sincronizar estadísticas y coleccionables entre dispositivos, habilitar partidas multijugador y gestionar los rankings globales de Gloria y Goles.</p>
+        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.3); margin: 12px 0;">
+        <p><strong>English:</strong> <em>Fulbest</em> is a 1v1 arcade soccer game for Android and PC developed by Pedro Dottori (Lanniscarp Games). This website serves as the official homepage for the application. Authentication and cloud services (player accounts and Google Play Games Services) are used strictly to save player progress, sync stats and collectibles across devices, enable online multiplayer matches, and power global Glory and Goals leaderboards.</p>
     </div>
 
     <!-- SOBRE EL JUEGO -->
     <h2 class="section-title">⚽ Sobre Fulbest</h2>
-    <p>Un juego de fútbol 1vs1 caótico donde nada es normal. Enfrenta a distintos rivales —desde un millonario corrupto hasta un científico loco— en partidos llenos de poderes extraños, goles anulados, expulsiones injustas, clones inesperados y goles que valen triple.</p>
+    <p>Un juego de fútbol arcade 1vs1 donde cada partido es impredecible. Enfrentá a decenas de rivales únicos —desde un millonario corrupto hasta un científico loco— en encuentros llenos de habilidades especiales, árbitros polémicos, eventos caóticos y goles que valen triple.</p>
 
     <!-- MODOS DE JUEGO -->
-    <h2 class="section-title">🎮 Modos de Juego</h2>
+    <h2 class="section-title">🎮 Modos de Juego y Características</h2>
     <ul>
-        <li><strong>Modo Arcade:</strong> Ve superando a cada rival para ir desbloqueando enemigos cada vez más caóticos.</li>
-        <li><strong>Modo Copa:</strong> Enfrenta a 8 o 16 rivales en un torneo de eliminación directa.</li>
-        <li><strong>Modo Liga:</strong> Compite en una liga de 8 jugadores todos contra todos.</li>
-        <li><strong>Torneos Internacionales:</strong> Mundial de Selecciones, Bendita Copa de América, Copa Reyes de Europa y la Gran Copa Intercontinental.</li>
+        <li><strong>Modo Carrera:</strong> Creá tu futbolista, firmá contratos en ligas de todo el mundo, ascendé de división y conquistá copas continentales.</li>
+        <li><strong>Modo Arcade:</strong> Superá más de 40 rivales con poderes únicos para completar tu álbum de figuritas y desbloquear skins.</li>
+        <li><strong>Multijugador Online 1vs1:</strong> Competí en tiempo real contra otros jugadores y escalá en el ranking mundial de Puntos de Gloria y Goles.</li>
+        <li><strong>Copas y Torneos Internacionales:</strong> Mundial de Selecciones, Copa América, Champions, Libertadores y Mundial de Clubes.</li>
     </ul>
 
     <!-- CONTACTO Y PRIVACIDAD -->
-    <h2 class="section-title">📜 Políticas y Contacto</h2>
-    <p>Para consultar el tratamiento de datos y la privacidad del usuario, podés acceder a nuestro documento oficial:</p>
+    <h2 class="section-title">📜 Privacidad, Datos y Contacto</h2>
+    <p>Podés consultar cómo protegemos tus datos o solicitar la eliminación permanente de tu cuenta y progreso en la nube en los siguientes enlaces:</p>
     
-    <a href="privacyp.html" class="btn-policy">🔒 Ver Política de Privacidad (Privacy Policy)</a>
+    <div class="actions-row">
+        <a href="privacyp.html" class="btn-policy">🔒 Política de Privacidad (Privacy Policy)</a>
+        <a href="privacyp.html#eliminar-cuenta" class="btn-delete">🗑️ Eliminación de Cuenta y Datos</a>
+    </div>
 
     <div class="footer">
         <p><strong>Desarrollador:</strong> Pedro Dottori (Lanniscarp Games)</p>
-        <p><strong>Contacto / Asistencia:</strong> <a href="mailto:lanniscarp@gmail.com">lanniscarp@gmail.com</a></p>
+        <p><strong>Contacto / Soporte:</strong> <a href="mailto:lanniscarp@gmail.com">lanniscarp@gmail.com</a></p>
         <p><strong>Página en Itch.io:</strong> <a href="https://lanniscarp-games.itch.io/fulbest" target="_blank">lanniscarp-games.itch.io/fulbest</a></p>
-        <p style="margin-top: 10px;">&copy; Fulbest. Todos los derechos reservados.</p>
+        <p style="margin-top: 10px;">&copy; 2026 Fulbest - Lanniscarp Games. Todos los derechos reservados.</p>
     </div>
 </div>
 
